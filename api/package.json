@@ -1,0 +1,12 @@
+{
+  "name": "api-tests",
+  "version": "1.0.0",
+  "description": "API tests for Restful Booker",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
